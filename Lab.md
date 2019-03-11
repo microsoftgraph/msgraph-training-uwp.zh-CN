@@ -1,0 +1,3 @@
+# <a name="create-uwp-apps-with-microsoft-graph"></a><span data-ttu-id="f1f2f-101">使用 Microsoft Graph 创建 UWP 应用</span><span class="sxs-lookup"><span data-stu-id="f1f2f-101">Create UWP apps with Microsoft Graph</span></span>
+
+<span data-ttu-id="f1f2f-102">此内容已移至[https://docs.microsoft.com/graph/training/uwp-tutorial](https://docs.microsoft.com/graph/training/uwp-tutorial)。</span><span class="sxs-lookup"><span data-stu-id="f1f2f-102">This content has been moved to [https://docs.microsoft.com/graph/training/uwp-tutorial](https://docs.microsoft.com/graph/training/uwp-tutorial).</span></span> <span data-ttu-id="f1f2f-103">请更新您的书签。</span><span class="sxs-lookup"><span data-stu-id="f1f2f-103">Please update your bookmark.</span></span>
