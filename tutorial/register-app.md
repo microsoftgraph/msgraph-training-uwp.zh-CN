@@ -1,27 +1,25 @@
 <!-- markdownlint-disable MD002 MD041 -->
 
-在本练习中, 将使用应用程序注册表门户 (ARP) 创建新的 Azure AD 本机应用程序。
+在本练习中, 你将使用 azure Active Directory 管理中心创建新的 azure AD native 应用程序。
 
-1. 打开浏览器并导航到[应用程序注册门户](https://apps.dev.microsoft.com), 并使用**个人帐户**(亦称: Microsoft 帐户) 或**工作或学校帐户**进行登录。
+1. 打开浏览器并导航到[Azure Active Directory 管理中心](https://aad.portal.azure.com), 并使用**个人帐户**(亦称为 "Microsoft 帐户") 或**工作或学校帐户**进行登录。
 
-1. 选择页面顶部的 "**添加应用**"。
+1. 在左侧导航栏中选择 " **Azure Active Directory** ", 然后选择 "**管理**" 下的 "**应用注册 (预览)** "。
 
-    > [!NOTE]
-    > 如果在页面上看到多个 "**添加应用程序**" 按钮, 请选择与 "**聚合应用程序**" 列表对应的项。
+    ![应用注册的屏幕截图 ](./images/aad-portal-app-registrations.png)
 
-1. 在 "**注册应用程序**" 页上, 将**应用程序名称**设置为**UWP Graph 教程**, 然后选择 "**创建**"。
+1. 选择 "**新建注册**"。 在 "**注册应用程序**" 页上, 按如下所示设置值。
 
-    ![在应用注册门户网站中创建新应用程序的屏幕截图](./images/arp-create-app-01.png)
+    - 将**名称**设置`UWP Graph Tutorial`为。
+    - 将**支持的帐户类型**设置为**任何组织目录和个人 Microsoft 帐户中的帐户**。
+    - 将**重定向 URI**留空。
 
-1. 在 " **UWP Graph 教程注册**" 页上的 "**属性**" 部分下, 复制**应用程序 Id** , 因为稍后将需要它。
+    !["注册应用程序" 页的屏幕截图](./images/aad-register-an-app.png)
 
-    ![新创建的应用程序 ID 的屏幕截图](./images/arp-create-app-02.png)
+1. 选择 "**注册**"。 在**UWP Graph 教程**页上, 复制**应用程序 (客户端) ID**的值并保存它, 下一步将需要它。
 
-1. 向下滚动到 "**平台**" 部分。
+    ![新应用注册的应用程序 ID 的屏幕截图](./images/aad-application-id.png)
 
-    1. 选择 "**添加平台**"。
-    1. 在 "**添加平台**" 对话框中, 选择 "**本机应用程序**"。
+1. 选择 "**添加重定向 URI** " 链接。 在 "**重定向 uri** " 页上, 找到 "**公共客户端 (移动、桌面)** " 部分的 "建议的重定向 uri" 部分。 选择 URI `urn:ietf:wg:oauth:2.0:oob` , 然后选择 "**保存**"。
 
-        ![为应用程序创建平台的屏幕截图](./images/arp-create-app-03.png)
-
-1. 滚动到页面底部, 然后选择 "**保存**"。
+    !["重定向 uri" 页的屏幕截图](./images/aad-redirect-uris.png)

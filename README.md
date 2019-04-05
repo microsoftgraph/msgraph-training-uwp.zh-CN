@@ -28,16 +28,17 @@
 
 ## <a name="contributors"></a>参与者
 
-|        角色         |                            作者 (s)                             |
+| 角色                | 作者 (s)                                                        |
 | -------------------- | ---------------------------------------------------------------- |
-| 实验室手册/幻灯片 | Andrew Connell (Microsoft MVP, Voitanos) @andrewconnell          |
-| QA                   | Julie Turner (Microsoft MVP, Sympraxis 咨询) @juliemturner |
-| 承办人/支持    | Yina Arenas (Microsoft) @yina_arenas                             |
+| 实验室手册/幻灯片 | Andrew Connell (Microsoft MVP, Voitanos)@andrewconnell          |
+| QA                   | Julie Turner (Microsoft MVP, Sympraxis 咨询)@juliemturner |
+| 承办人/支持    | Yina Arenas (Microsoft)@yina_arenas                             |
 
 ## <a name="version-history"></a>版本历史记录
 
-| 版本 |        日期        |                       注释                       |
+| 版本 | 日期               | 注释                                             |
 | ------- | ------------------ | ---------------------------------------------------- |
+| 1.7     | 2019年3月6日      | 2019Q3 内容刷新                               |
 | 1.6     | 2018年12月19日  | 2019Q2 内容刷新                               |
 | 1.5     | 2018 年 11 月 27 日  | 载入到 docs.microsoft.com/graph                |
 | 1.4     | 2018年11月2日   | 修订了模块, 使其与其他培训保持一致。 |
@@ -48,7 +49,7 @@
 
 ## <a name="disclaimer"></a>免责声明
 
-**此代码*按*原样提供, 无需任何明示或暗示的担保, 包括对特定目的适用性、适销性或不侵权的任何暗示担保。**
+**此代码_按_原样提供, 无需任何明示或暗示的担保, 包括对特定目的适用性、适销性或不侵权的任何暗示担保。**
 
 <!-- markdownlint-disable MD033 -->
 <img src="https://telemetry.sharepointpnp.com/msgraph-training-uwp" />
