@@ -1,10 +1,10 @@
 <!-- markdownlint-disable MD002 MD041 -->
 
-在本练习中, 将把 Microsoft Graph 合并到应用程序中。 对于此应用程序, 您将使用[microsoft graph 客户端库进行 .net](https://github.com/microsoftgraph/msgraph-sdk-dotnet)以调用 microsoft graph。
+在本练习中, 将把 Microsoft Graph 合并到应用程序中。 对于此应用程序, 您将使用[Microsoft Graph 客户端库进行 .net](https://github.com/microsoftgraph/msgraph-sdk-dotnet)以调用 microsoft graph。
 
 ## <a name="get-calendar-events-from-outlook"></a>从 Outlook 获取日历事件
 
-首先添加 "日历" 视图的新页面。 右键单击 "解决方案资源管理器" 中的 "**教程**" 项目, 然后选择 "**添加 > 新建项目 ...**"。选择 "**空白页**" `CalendarPage.xaml` , 在 "**名称**" 字段中输入, 然后选择 "**添加**"。
+首先添加 "日历" 视图的新页面。 右键单击 "解决方案资源管理器" 中的 "**教程**" 项目, 然后选择 "**添加 > 新建项目 .。。**"。选择 "**空白页**" `CalendarPage.xaml` , 在 "**名称**" 字段中输入, 然后选择 "**添加**"。
 
 打开`CalendarPage.xaml`并将以下行添加到现有`<Grid>`元素中。
 
@@ -129,7 +129,7 @@ EventList.ItemsSource = events.CurrentPage.ToList();
 
 如果现在运行应用程序并选择日历, 则应获取数据网格中的事件列表。 但是,**开始**和**结束**值以非用户友好方式显示。 您可以使用[值转换器](https://docs.microsoft.com/uwp/api/Windows.UI.Xaml.Data.IValueConverter)控制这些值的显示方式。
 
-右键单击 "解决方案资源管理器" 中的 "**教程**" 项目, 然后选择 "**添加 > 类 ...**"。命名该类`GraphDateTimeTimeZoneConverter.cs` , 然后选择 "**添加**"。 将文件的全部内容替换为以下内容。
+右键单击 "解决方案资源管理器" 中的 "**教程**" 项目, 然后选择 "**添加 > 类 .。。**"。命名该类`GraphDateTimeTimeZoneConverter.cs` , 然后选择 "**添加**"。 将文件的全部内容替换为以下内容。
 
 ```cs
 using Microsoft.Graph;

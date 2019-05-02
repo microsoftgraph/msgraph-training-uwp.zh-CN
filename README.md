@@ -1,10 +1,10 @@
-# <a name="microsoft-graph-training-module---build-uwp-apps-with-the-microsoft-graph-net-sdk"></a>microsoft graph 培训模块-使用 Microsoft graph .net SDK 生成 UWP 应用
+# <a name="microsoft-graph-training-module---build-uwp-apps-with-the-microsoft-graph-net-sdk"></a>Microsoft Graph 培训模块-使用 Microsoft Graph .NET SDK 生成 UWP 应用
 
 本模块将介绍如何通过构建本机通用 Windows 平台 (UWP) 应用程序, 使用 Microsoft Graph SDK 访问 Office 365 中的数据。
 
-## <a name="lab---build-uwp-apps-with-the-microsoft-graph-net-sdk"></a>使用 Microsoft Graph .net SDK 构建实验室生成 UWP 应用
+## <a name="lab---build-uwp-apps-with-the-microsoft-graph-net-sdk"></a>使用 Microsoft Graph .NET SDK 构建实验室生成 UWP 应用
 
-在此实验室中, 将使用 Azure AD v2 身份验证终结点和 microsoft 身份验证库 (MSAL) 创建一个 UWP 应用程序, 以使用 microsoft Graph 访问 Office 365 中的数据。
+在此实验室中, 将使用 Azure AD v2 身份验证终结点和 Microsoft 身份验证库 (MSAL) 创建一个 UWP 应用程序, 以使用 Microsoft Graph 访问 Office 365 中的数据。
 
 - [UWP Microsoft Graph 教程](https://docs.microsoft.com/graph/training/uwp-tutorial)
 
@@ -12,7 +12,7 @@
 
 此存储库中的[演示](./Demos)目录包含与完成教程的各个部分对应的项目的副本。 如果只想演示教程的某个特定部分, 则可以从上一节中的版本开始。
 
-- [01-创建-应用](Demos/01-create-app): 已完成[创建通用 Windows 平台 (UWP) web 应用程序](https://docs.microsoft.com/graph/training/uwp-tutorial?tutorial-step=1)
+- [01-创建-应用](Demos/01-create-app): 已完成[创建通用 WINDOWS 平台 (UWP) web 应用程序](https://docs.microsoft.com/graph/training/uwp-tutorial?tutorial-step=1)
 - [02-添加-aad-auth](Demos/02-add-aad-auth): 已完成[添加 Azure AD 身份验证](https://docs.microsoft.com/graph/training/uwp-tutorial?tutorial-step=3)
 - [03-外接 msgraph](Demos/03-add-msgraph): 已完成[获取日历数据](https://docs.microsoft.com/graph/training/uwp-tutorial?tutorial-step=4)
 
@@ -24,15 +24,15 @@
 
 ## <a name="watch-the-module"></a>观看模块
 
-此模块已记录并在 Office 开发 YouTube 频道中可用:[使用 Microsoft Graph .net SDK 生成 UWP 应用](https://youtu.be/XNxBUmqcf6c)
+此模块已记录并在 Office 开发 YouTube 频道中可用:[使用 Microsoft Graph .NET SDK 生成 UWP 应用](https://youtu.be/XNxBUmqcf6c)
 
 ## <a name="contributors"></a>参与者
 
 | 角色                | 作者 (s)                                                        |
 | -------------------- | ---------------------------------------------------------------- |
-| 实验室手册/幻灯片 | Andrew Connell (Microsoft MVP, Voitanos)@andrewconnell          |
-| QA                   | Julie Turner (Microsoft MVP, Sympraxis 咨询)@juliemturner |
-| 承办人/支持    | Yina Arenas (Microsoft)@yina_arenas                             |
+| 实验室手册/幻灯片 | Andrew Connell (Microsoft MVP, Voitanos) @andrewconnell          |
+| QA                   | Julie Turner (Microsoft MVP, Sympraxis 咨询) @juliemturner |
+| 承办人/支持    | Yina Arenas (Microsoft) @yina_arenas                             |
 
 ## <a name="version-history"></a>版本历史记录
 

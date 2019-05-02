@@ -2,7 +2,7 @@
 
 在本练习中, 你将扩展上一练习中的应用程序, 以支持 Azure AD 的身份验证。 若要获取所需的 OAuth 访问令牌以调用 Microsoft Graph, 这是必需的。 在此步骤中, 将[AadLogin](https://docs.microsoft.com/dotnet/api/microsoft.toolkit.uwp.ui.controls.graph.aadlogin?view=win-comm-toolkit-dotnet-stable)控件从[Windows 社区工具包](https://github.com/Microsoft/WindowsCommunityToolkit)集成到应用程序中。
 
-右键单击 "解决方案资源管理器" 中的 "**教程**" 项目, 然后选择 "**添加 > 新建项目 ...**"。选择 "**资源文件 (resources.resw)**", 命名该`OAuth.resw`文件, 然后选择 "**添加**"。 在 Visual Studio 中打开新文件时, 请按如下所示创建两个资源。
+右键单击 "解决方案资源管理器" 中的 "**教程**" 项目, 然后选择 "**添加 > 新建项目 .。。**"。选择 "**资源文件 (resources.resw)**", 命名该`OAuth.resw`文件, 然后选择 "**添加**"。 在 Visual Studio 中打开新文件时, 请按如下所示创建两个资源。
 
 - **名称:**`AppId`, **Value:** 在应用程序注册门户中生成的应用程序 ID
 - **名称:**`Scopes`, **Value:**`User.Read Calendars.Read`
