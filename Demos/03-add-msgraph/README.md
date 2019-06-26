@@ -24,25 +24,21 @@
 
     - 将“名称”**** 设置为“`UWP Graph Tutorial`”。
     - 将“受支持的帐户类型”**** 设置为“任何组织目录中的帐户和个人 Microsoft 帐户”****。
-    - 保留“重定向 URI”**** 为空。
+    - 在 "**重定向 URI**" 下, 将下拉列表更改为 "**公用客户端 (移动 & 桌面)**", 并将值设置为`urn:ietf:wg:oauth:2.0:oob`。
 
-    !["注册应用程序" 页的屏幕截图](/tutorial/images/aad-register-an-app.png)
+    !["注册应用程序" 页的屏幕截图](/tutorial/images/aad-register-app.png)
 
 1. 选择“注册”****。 在**UWP Graph 教程**页上, 复制**应用程序 (客户端) ID**的值并保存它, 下一步将需要它。
 
     ![新应用注册的应用程序 ID 的屏幕截图](/tutorial/images/aad-application-id.png)
 
-1. 选择 "**添加重定向 URI** " 链接。 在 "**重定向 uri** " 页上, 找到 "**公共客户端 (移动、桌面)** " 部分的 "建议的重定向 uri" 部分。 选择 URI `urn:ietf:wg:oauth:2.0:oob` , 然后选择 "**保存**"。
-
-    !["重定向 Uri" 页的屏幕截图](/tutorial/images/aad-redirect-uris.png)
-
 ## <a name="configure-the-sample"></a>配置示例
 
 1. 将`OAuth.resw.example`文件重命名`OAuth.resw`为。
 1. 在`graph-tutorial.sln` Visual Studio 中打开。
-1. 在 visual `OAuth.resw` Studio 中编辑文件。将`YOUR_APP_ID_HERE`替换为你从应用注册门户获取的**应用程序 Id** 。
+1. 在 visual `OAuth.resw` studio 中编辑文件。将`YOUR_APP_ID_HERE`替换为你从应用注册门户获取的**应用程序 Id** 。
 1. 在 "解决方案资源管理器" 中, 右键单击**graph 教程**解决方案并选择 "**还原 NuGet 包**"。
 
 ## <a name="run-the-sample"></a>运行示例
 
-在 Visual Studio 中, 按**F5**或选择 "**调试" _GT_ "开始调试**"。
+在 Visual Studio 中, 按**F5**或选择 "**调试" > "开始调试**"。

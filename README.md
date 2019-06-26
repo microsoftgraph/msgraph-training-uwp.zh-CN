@@ -24,20 +24,22 @@
 
 ## <a name="watch-the-module"></a>观看模块
 
-此模块已记录并在 Office 开发 YouTube 频道中可用:[使用 Microsoft Graph .NET SDK 生成 UWP 应用](https://youtu.be/XNxBUmqcf6c)
+此模块已记录并在 Office 开发 YouTube 频道中可用:[使用 Microsoft Graph .NET SDK 生成 UWP 应用](https://youtu.be/oBYCBxkWMRA)
 
 ## <a name="contributors"></a>参与者
 
-| 角色                | 作者 (s)                                                        |
-| -------------------- | ---------------------------------------------------------------- |
-| 实验室手册/幻灯片 | Andrew Connell (Microsoft MVP, Voitanos) @andrewconnell          |
-| QA                   | Julie Turner (Microsoft MVP, Sympraxis 咨询) @juliemturner |
-| 承办人/支持    | Yina Arenas (Microsoft) @yina_arenas                             |
+|        角色         |                                           作者 (s)                                           |
+| -------------------- | --------------------------------------------------------------------------------------------- |
+| 实验室手册/幻灯片 | Andrew Connell (Microsoft MVP, Voitanos) [@andrewconnell](//github.com/andrewconnell)         |
+| QA                   | Julie Turner (Microsoft MVP, Sympraxis 咨询) [@juliemturner](//github.com/juliemturner) |
+| 承办人/支持    | Yina Arenas (Microsoft) [@yina_arenas](//github.com//github.com/yina_arenas)                  |
 
 ## <a name="version-history"></a>版本历史记录
 
-| 版本 | 日期               | 注释                                             |
+| 版本 |        日期        |                       注释                       |
 | ------- | ------------------ | ---------------------------------------------------- |
+| 1.9     | 2019年6月18日      | 更新了用于刷新截屏视频录制的自述文件     |
+| 1.8     | 5月24日, 2019       | 2019Q4 内容刷新                               |
 | 1.7     | 2019年3月6日      | 2019Q3 内容刷新                               |
 | 1.6     | 2018年12月19日  | 2019Q2 内容刷新                               |
 | 1.5     | 2018 年 11 月 27 日  | 载入到 docs.microsoft.com/graph                |
