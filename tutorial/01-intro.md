@@ -10,7 +10,7 @@
 在开始本教程之前, 应在运行 Windows 10 的计算机上安装[Visual Studio](https://visualstudio.microsoft.com/vs/) , 并[启用开发人员模式](https://docs.microsoft.com/windows/uwp/get-started/enable-your-device-for-development)。 如果没有 Visual Studio, 请访问 "下载选项" 的上一个链接。
 
 > [!NOTE]
-> 本教程是使用 Visual Studio 2017 版本15.8.1 编写的。 本指南中的步骤可能适用于其他版本, 但尚未经过测试。
+> 本教程是使用 Visual Studio 2019 版本16.1.5 编写的。 本指南中的步骤可能适用于其他版本, 但尚未经过测试。
 
 ## <a name="watch-the-tutorial"></a>观看教程
 

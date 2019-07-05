@@ -169,7 +169,7 @@ namespace graph_tutorial
 }
 ```
 
-此代码采用由 Microsoft Graph 返回的[datetimetimezone type](https://developer.microsoft.com/en-us/graph/docs/api-reference/v1.0/resources/datetimetimezone)结构, 并将其分析`DateTimeOffset`为对象。 然后, 它将值转换为用户的时区并返回带格式的值。
+此代码采用由 Microsoft Graph 返回的[datetimetimezone type](https://docs.microsoft.com/graph/api/resources/datetimetimezone?view=graph-rest-1.0)结构, 并将其分析`DateTimeOffset`为对象。 然后, 它将值转换为用户的时区并返回带格式的值。
 
 打开`CalendarPage.xaml`并在`<Grid>`元素**前面**添加以下项。
 

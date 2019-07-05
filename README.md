@@ -6,15 +6,15 @@
 
 在此实验室中, 将使用 Azure AD v2 身份验证终结点和 Microsoft 身份验证库 (MSAL) 创建一个 UWP 应用程序, 以使用 Microsoft Graph 访问 Office 365 中的数据。
 
-- [UWP Microsoft Graph 教程](https://docs.microsoft.com/graph/training/uwp-tutorial)
+- [UWP Microsoft Graph 教程](https://docs.microsoft.com/graph/tutorials/uwp)
 
 ## <a name="demos"></a>演示
 
 此存储库中的[演示](./Demos)目录包含与完成教程的各个部分对应的项目的副本。 如果只想演示教程的某个特定部分, 则可以从上一节中的版本开始。
 
-- [01-创建-应用](Demos/01-create-app): 已完成[创建通用 WINDOWS 平台 (UWP) web 应用程序](https://docs.microsoft.com/graph/training/uwp-tutorial?tutorial-step=1)
-- [02-添加-aad-auth](Demos/02-add-aad-auth): 已完成[添加 Azure AD 身份验证](https://docs.microsoft.com/graph/training/uwp-tutorial?tutorial-step=3)
-- [03-外接 msgraph](Demos/03-add-msgraph): 已完成[获取日历数据](https://docs.microsoft.com/graph/training/uwp-tutorial?tutorial-step=4)
+- [01-创建-应用](Demos/01-create-app): 已完成[创建通用 WINDOWS 平台 (UWP) web 应用程序](https://docs.microsoft.com/graph/tutorials/uwp?tutorial-step=1)
+- [02-添加-aad-auth](Demos/02-add-aad-auth): 已完成[添加 Azure AD 身份验证](https://docs.microsoft.com/graph/tutorials/uwp?tutorial-step=3)
+- [03-外接 msgraph](Demos/03-add-msgraph): 已完成[获取日历数据](https://docs.microsoft.com/graph/tutorials/uwp?tutorial-step=4)
 
 ## <a name="completed-sample"></a>已完成示例
 

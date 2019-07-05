@@ -1,12 +1,12 @@
 <!-- markdownlint-disable MD002 MD041 -->
 
-打开 Visual Studio, 然后选择 "**文件" > "新建 > 项目**"。 在 "**新建项目**" 对话框中, 执行以下操作:
+打开 Visual Studio, 然后选择 "**新建项目**"。 选择使用 c # 的**空白应用程序 (通用窗口)** 选项, 然后选择 "**下一步**"。
 
-1. 在**Visual c # > Windows 通用 >** 中选择 "模板"。
-1. 选择**空白应用 (通用窗口)**。
-1. 输入**graph-** 项目名称教程。
+![Visual Studio 2019 "新建项目" 对话框](./images/vs-create-new-project.png)
 
-![Visual Studio 2017 "新建项目" 对话框](./images/vs-newproj-01.png)
+在 "**配置新项目**" 对话框中, `graph-tutorial`在 "**项目名称**" 字段中输入, 然后选择 "**创建**"。
+
+![Visual Studio 2019 配置新项目对话框](./images/vs-configure-new-project.png)
 
 > [!IMPORTANT]
 > 确保为在这些实验室说明中指定的 Visual Studio 项目输入完全相同的名称。 Visual Studio 项目名称将成为代码中的命名空间的一部分。 这些指令中的代码取决于与这些说明中指定的 Visual Studio 项目名称匹配的命名空间。 如果使用其他项目名称, 则代码将不会编译, 除非您调整所有命名空间以匹配您在创建项目时输入的 Visual Studio 项目名称。
@@ -23,10 +23,10 @@
 选择 "**工具" > NuGet 包管理器 "> 程序包管理器控制台**"。 在 "程序包管理器控制台" 中, 输入以下命令。
 
 ```Powershell
-Install-Package Microsoft.Toolkit.Uwp.Ui.Controls
-Install-Package Microsoft.Toolkit.Uwp.Ui.Controls.DataGrid
-Install-Package Microsoft.Toolkit.Uwp.Ui.Controls.Graph
-Install-Package Microsoft.Graph
+Install-Package Microsoft.Toolkit.Uwp.Ui.Controls -Version 5.1.1
+Install-Package Microsoft.Toolkit.Uwp.Ui.Controls.DataGrid -Version 5.1.0
+Install-Package Microsoft.Toolkit.Uwp.Ui.Controls.Graph -Version 5.1.0
+Install-Package Microsoft.Graph -Version 1.16.0
 ```
 
 ## <a name="design-the-app"></a>设计应用程序
@@ -98,19 +98,7 @@ public bool IsAuthenticated { get; set; }
 </StackPanel>
 ```
 
-现在, **** 展开 "解决方案资源管理器" 中`MainPage.xaml.cs`的 MainPage, 然后打开。 将下面的代码添加到`MainPage()`构造函数中`this.InitializeComponent();`的行**后面**。
-
-```cs
-// Initialize auth state to false
-SetAuthState(false);
-
-// Navigate to HomePage.xaml
-RootFrame.Navigate(typeof(HomePage));
-```
-
-当应用程序第一次启动时, 它会将身份`false`验证状态初始化为并导航到主页。
-
-将以下函数添加到`MainPage`类以管理身份验证状态。
+现在, **** 展开 "解决方案资源管理器" 中`MainPage.xaml.cs`的 MainPage, 然后打开。 将以下函数添加到`MainPage`类以管理身份验证状态。
 
 ```cs
 private void SetAuthState(bool isAuthenticated)
@@ -121,6 +109,18 @@ private void SetAuthState(bool isAuthenticated)
     Calendar.IsEnabled = isAuthenticated;
 }
 ```
+
+将下面的代码添加到`MainPage()`构造函数中`this.InitializeComponent();`的行**后面**。
+
+```cs
+// Initialize auth state to false
+SetAuthState(false);
+
+// Navigate to HomePage.xaml
+RootFrame.Navigate(typeof(HomePage));
+```
+
+当应用程序第一次启动时, 它会将身份`false`验证状态初始化为并导航到主页。
 
 添加以下事件处理程序, 以便在用户从导航视图中选择项目时加载请求的页面。
 
